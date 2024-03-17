@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --cor-primaria: #F3F5FC;
+    --cor-secundaria: #0A3871;
+    --cor-terciaria: #495057;
+}
+
+body {
+    background-color: var(--cor-primaria);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+}
+
+.alura-logo {
+    padding: 20px 0px 0px 40px;
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contem-caixa-de-texto {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 100px;
+    width: 1080px;
+    height: 600px;
+}
+
+.caixa-de-texto {
+    width: 50%;
+    height: 100%;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    outline: none;
+    border: none;
+    resize: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.caixa-de-texto::placeholder {
+    color: var(--cor-secundaria);
+}
+
+.alerta {
+    position: absolute;
+    top: 780px;
+    left: 230px;
+    display: flex;
+    color: var(--cor-terciaria);
+    gap: 8px;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.contem-botoes {
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding: 15px 0px 0px 15%;
+}
+
+.botao-criptografar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.botao-descriptografar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.secao-2 {
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 940px;
+    background-color: #FFFFFF;
+    right: 40px;
+    bottom: 35px;
+    padding: 0px 20px 0px 20px;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgb(0, 0, 0, 0.5);
+}
+
+.contem-imagem-menino {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    box-sizing: border-box;
+}
+
+.contem-segundo-paragrafo {
+    position: absolute;
+    box-sizing: border-box;
+    top: 600px;
+}
+
+.contem-segundo-paragrafo h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 120%;
+    font-style: normal;
+    color: #343A40;
+    text-align: center;
+}
+
+.contem-segundo-paragrafo p {
+    color: var(--cor-terciaria);
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 16px;
+}
+
+.contem-botao-copiar {
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 36px;
+}
+
+.botao-copiar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid var(--cor-secundaria);
+    cursor: pointer;
+}
+
+.contem-resultado {
+    position: absolute;
+    bottom: 450px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+
+.texto-resultado {
+    color: var(--cor-terciaria);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.ocultar {
+    display: none;
+}

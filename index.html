@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/alura-logo.png" alt="Alura Logo" class="alura-logo">
+    </header>
+    <main>
+        <section class="secao-1">
+            <div class="contem-caixa-de-texto">
+                <textarea placeholder="Digite o seu texto" class="caixa-de-texto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="./assets/aviso-icon.png" alt="Ícone de alerta">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="contem-botoes">
+                <input type="button" value="Criptografar" class="botao-criptografar">
+                <input type="button" value="Descriptografar" class="botao-descriptografar">
+            </div>
+        </section>
+        <section class="secao-2">
+            <div class="contem-imagem-menino">
+                <img src="./assets/menino.jpg" alt="Imagem de um menino curioso">
+            </div>
+            <div class="contem-segundo-paragrafo">
+                <h3>Nenhuma mensagem <br> encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou <br> descriptografar.</p>
+            </div>
+            <div class="contem-botao-copiar">
+                <input type="button" value="Copiar" class="botao-copiar">
+            </div>
+            <div class="contem-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
